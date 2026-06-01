@@ -364,7 +364,7 @@ export default function App() {
 
       const response = await axios.post(
 
-        "http://localhost:3000/generate-caption",
+        "https://ai-caption-studio-9y8g.onrender.com/generate-caption",
 
         formData
       );
